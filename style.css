@@ -151,15 +151,16 @@ nav{
     ----------------------------------------------- */
 
   .main_container{
-    /* width: 1040px;
-    height: 1660px;
-    margin: 0 auto;
-    border: 1px solid red; */
-  }
-  .area{
     width: 80%;
-    height: 1480px;
+    height: 1760px;
     margin: 0 auto;
+    
+    border: 1px solid red;
+  }
+  .container{
+    width: 100%;
+    height: 1550px;
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -171,15 +172,79 @@ nav{
   }
   .collection_box{
     width: 330px;
-    height: 470px;
+    height: 488px;
     padding: 13px;
     
     border: 1px solid red;
   }
   .collection_box_area{
-    
+    height: 100%;
     border: 1px solid red;
   }
   .collection_box_area img{
+    width: 100%;
 
+    border: 1px solid red;
+  }
+/* -----------------title_price----------------- */
+
+  .title_price{
+    width: 100%;
+
+    border: 1px solid red;
+  }
+  .title_price h2{
+    font-family: poppins,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 8px;
+    
+    border: 1px solid red;
+  }
+  .title_price h3{
+    font-family: inter,sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 600;
+    
+    border: 1px solid red;
+  }
+  /* ------------------rating----------------- */
+  
+    .rating{
+      width: 100%;
+      height: 40px;
+      margin-top: 8px;
+      display: flex;
+      
+      align-items: center;
+      border: 1px solid red;
+    }
+    .rating .star{
+      
+    }
+    .rating .star .fa-solid{
+      color: #FB8200;
+      font-size: 20px;
+    }
+
+  .rating .rate{
+    margin-left: 15px;
+    font-family: inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .collection_box_area .p{
+    font-family: poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 8px;
+    border: 1px solid red;
+  }
+
+
+
+  .main{
+    margin: 50px 0;
   }
