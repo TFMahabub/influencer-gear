@@ -93,6 +93,7 @@ nav{
 .text_title a{
   background-color: #E02C6D;
   color: #fff;
+  font-size: 18px;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 10px;
@@ -100,6 +101,10 @@ nav{
   text-decoration: none;
   font-family: inter, sans-serif;
   letter-spacing: .4px;
+}
+.text_title a .fa-solid{
+  display: inline-block;
+  font-size: 19px;
 }
 
 
