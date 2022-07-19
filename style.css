@@ -153,9 +153,9 @@ nav{
   .main_container{
     width: 80%;
     height: 1760px;
-    margin: 0 auto;
+    margin: 180px auto;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .container{
     width: 100%;
@@ -168,38 +168,41 @@ nav{
     justify-items: center;
     align-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .collection_box{
     width: 330px;
     height: 488px;
-    padding: 13px;
-    
-    border: 1px solid red;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 25px rgb(219, 219, 219);
+    /* border: 1px solid red; */
   }
   .collection_box_area{
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .collection_box_area img{
     width: 100%;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 /* -----------------title_price----------------- */
 
   .title_price{
     width: 100%;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
+/* -------------------price----------------------- */
+
   .title_price h2{
     font-family: poppins,sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-top: 8px;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .title_price h3{
     font-family: inter,sans-serif;
@@ -207,18 +210,18 @@ nav{
     margin-top: 8px;
     font-weight: 600;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   /* ------------------rating----------------- */
   
     .rating{
       width: 100%;
       height: 40px;
-      margin-top: 8px;
+      margin-top: 12px;
       display: flex;
       
       align-items: center;
-      border: 1px solid red;
+      /* border: 1px solid red; */
     }
     .rating .star{
       
@@ -238,13 +241,14 @@ nav{
   .collection_box_area .p{
     font-family: poppins, sans-serif;
     font-size: 17px;
-    font-weight: 500;
-    margin-top: 8px;
-    border: 1px solid red;
+    font-weight: 400;
+    margin-top: 6px;
+    letter-spacing: .8px;
+    /* border: 1px solid red; */
   }
 
 
 
   .main{
-    margin: 50px 0;
+    
   }
